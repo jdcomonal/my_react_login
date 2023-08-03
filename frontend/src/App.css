@@ -1,0 +1,94 @@
+
+.root-main{
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  
+}
+.hero{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  
+}
+.hero-txt{
+  max-width:400px;
+}
+.blog{
+  width: 60%;
+}
+.hero div{
+
+  margin: 0 10px;
+}
+.img-c{
+  overflow: hidden;
+  /* min-width: 300px; */
+  height: 500px;
+  border-radius: 20px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.navbar{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+a{
+  color: unset;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: 800;
+}
+a:hover{
+  text-decoration: underline;
+  color: orange;
+}
+input[type="submit"]{
+  padding: 5px 10px;
+  font-weight: 600;
+  background:orange;
+  color:white;
+  border: 0px;
+  border-radius: 5px;
+  height: 40px;
+}
+input[type="submit"]:hover{
+  color: orange;
+  background:white;
+  border: 2px solid orange;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.contact h2{
+  margin-bottom: 5px;
+}
+input[type="text"]{
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
